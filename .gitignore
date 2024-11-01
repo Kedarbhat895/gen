@@ -1,10 +1,11 @@
 # Ignore .env files
-.env
+# Ignore .env files
 *.env
+.env.*
 *.lock
 
-# Ignore backup or hidden environment files
-.env.local
-.env.*.local
-.env.*
+# Ignore virtual environment folders
+env/
+venv/
+.virtualenv/
 
